@@ -14,5 +14,21 @@
 
 在这几个中，最基础的就应该是`Observable`，`Observser`和`Operators`了。在以后的内容的，我们不再翻译*Observable*和*Observer`。
 
+## Observable
 
+`Observable`是产生数据的地方，其产生的数据可以直接或间接的被`Observer`消费。`Observable`还可以通过`Operators`的*筛选*,
+*合并*,*拆分*等转换为其它的`Observable`。
+
+## Observer
+
+`Observer`是消费数据的地方，一个`Observable`只有被`Observer`消费之后，其才有意义。
+
+## Operators
+
+`Operators`是RxJs中最复杂的一部分内容。其的复杂度在于其API的数量多，包括:
+
+- 创建`Observable`
+- 筛选`Observable`
+- 合并`Observable`
+- 拆分`Observable`
 
